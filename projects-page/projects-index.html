@@ -2,12 +2,70 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Projects Page</title>
-		<link rel="stylesheet" href="projects-style.css">
+		<title>Resume Page</title>
+		<link rel="stylesheet" href="resume-style.css">
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-		<script src='projects-app.js'</script>
+		<script src='projects-app.js'></script>
 	</head>
 	<body>
+		<header id="header-container">
+			<a href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
+			<a href="file:///Users/nikki/Desktop/Portfolio/bio-page/bio-index.html">About Me</a>
+			<a href="file:///Users/nikki/Desktop/Portfolio/resume-page/resume-index.html">Resume</a>
+			<div class="dropdown"
+				<button class="dropbtn">Links</button>
+				<div class="dropdown-content">
+				<a href="https://www.linkedin.com/feed/" target="_blank">Linked In</a>
+				<a href="https://github.com/Ncalamia" target="_blank">github</a>
+				</div>
+			</div>
+		</header>
+	<main>
+		<!-- Will be hidden when button is on -->
+		<div id="screen-1">
+				<img src="https://icon-library.com/images/software-developer-icon/software-developer-icon-24.jpg" alt="Developer Symbol">
+				<h1>Nikki Calamia</h1>
+				<h3>Software Developer</h3>
+				<h4>Click button to see the projects I've made</h4>
+				<br>
+		</div>
+		<!-- Will be hidden when button is on -->
 
-	</body>
-</html>
+		<!-- The entire switch -->
+		<div id="switch">
+		<label class="toggle-switch">
+			<input class="toggle-switch-input" type="checkbox">
+			<span class="toggle-switch-label" on="On" off="Off"></span>
+			<span class="toggle-switch-button"></span>
+		</label>
+		</div>
+
+		<!-- Will be hidden when button is off -->
+		<div id="screen-2">
+			<div id="project-container">
+				<div class="card-container">
+					<!-- Restaurant Webpage ? -->
+					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-business-website" target="_blank">Restaurant Webpage</a>
+					<p>Description?</p>
+				</div>
+				<!-- Cat Blog Webpage? -->
+				<div class="card-container">
+					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-blog-theme" target="_blank">Cat Blog</a>
+					<p>Description?</p>
+				</div>
+				<!-- Realtor Webpage? -->
+				<div class="card-container">
+					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-personal-website" target="_blank">Company Webpage</a>
+					<p>Description?</p>
+				</div>
+				<!-- Landscaper game? -->
+				<div class="card-container">
+					<a class="project-link" href="#" target="_blank">Project Name 4</a>
+					<p>Description?</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- Will be hidden when button is off -->
+
+	</main>

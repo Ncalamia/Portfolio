@@ -1,6 +1,8 @@
 
 body {
   background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2020/08/s10-1-1250x834.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -52,10 +54,29 @@ body {
 	display: block;
 }
 /* ////////////Sticky Nav Bar//////////// */
+#pic {
+  display: flex;
+  justify-content: center;
+}
+.pic {
+  height: 300px;
+  width: 300px;
+  border: 6px solid white;
+  border-radius: 100%;
+}
+#name {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+h1 {
+  font-size:
+}
+h3 {
+  font-size:
+}
 
-
-
-
+/* ////Fix background////// */
 
 
 

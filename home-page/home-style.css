@@ -1,19 +1,88 @@
+
+body {
+  background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2020/08/s10-1-1250x834.jpg");
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* ////////////Sticky Nav Bar//////////// */
+#header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  height: 100px;
+}
+.topOfPageNav {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.topOfPageNav:hover {
+  text-shadow: 1px 1px 1px white;
+}
+.dropDownFromLinks  {
+  padding-top: 20px;
+  height: 150px;
+  width: 100px;
+}
 .dropdown-content {
   display: none;
   z-index: 1;
 }
-
+.actualLinks {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
+  padding: 15px 10px 0px 0px;
+}
 .dropdown-content a {
   display: block;
 }
-
 .dropdown-content a:hover {
+  text-shadow: 1px 1px 1px white;
 }
-
 .dropDownFromLinks:hover .dropdown-content {
 	display: block;
 }
+/* ////////////Sticky Nav Bar//////////// */
 
-.dropDownFromLinks:hover .Links {
 
-	}
+
+
+
+
+
+
+
+
+
+/* /////////Picture Graveyard///////// */
+/* stars-blue,purple,pink,trees- current
+https://www.designyourway.net/blog/wp-content/uploads/2020/08/s10-1-1250x834.jpg */
+
+/* Stars-blue */
+/* https://media.istockphoto.com/photos/deep-space-background-picture-id178149253?b=1&k=20&m=178149253&s=170667a&w=0&h=_XDvcsDmRo_O9sV9l_Q4kNXZQq14xU9Cf-Ai7LpJOSY= */
+
+/* Stars-blue,purple,pink
+https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29uc3RlbGxhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 */
+
+/* stars-purple,pink,peach,trees
+https://images.unsplash.com/photo-1506946604214-968e32a47e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbnN0ZWxsYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 */
+
+/* stars-blue,clouds
+https://media.istockphoto.com/photos/night-sky-with-stars-and-clouds-picture-id532378051?b=1&k=20&m=532378051&s=170667a&w=0&h=K-6-sbYMHOM7i7yqFFdI0VCmFOY03rLAQMHxHObJUGY= */
+
+
+/* /////////Font Graveyard///////// */
+/* Raleway-current
+Roboto Slab
+PT Sans
+Quicksand
+Dosis*/

@@ -1,11 +1,12 @@
 
 body {
   background-image: url("https://www.designyourway.net/blog/wp-content/uploads/2020/08/s10-1-1250x834.jpg");
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
   color: white;
   text-shadow: 1px 1px 1px black;
+  margin-bottom: 400px;
 }
 
 /* ////////////Sticky Nav Bar//////////// */
@@ -54,9 +55,11 @@ body {
 	display: block;
 }
 /* ////////////Sticky Nav Bar//////////// */
+
 #pic {
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 .pic {
   height: 300px;
@@ -70,10 +73,10 @@ body {
   margin-top: 50px;
 }
 h1 {
-  font-size:
+  font-size: 35px;
 }
 h3 {
-  font-size:
+  font-size: 18px;
 }
 
 /* ////Fix background////// */
@@ -85,19 +88,19 @@ h3 {
 
 
 /* /////////Picture Graveyard///////// */
-/* stars-blue,purple,pink,trees- current
+/* stars-blue,purple,pink,trees- current   870x580
 https://www.designyourway.net/blog/wp-content/uploads/2020/08/s10-1-1250x834.jpg */
 
-/* Stars-blue */
+/* Stars-blue    507x338*/
 /* https://media.istockphoto.com/photos/deep-space-background-picture-id178149253?b=1&k=20&m=178149253&s=170667a&w=0&h=_XDvcsDmRo_O9sV9l_Q4kNXZQq14xU9Cf-Ai7LpJOSY= */
 
-/* Stars-blue,purple,pink
+/* Stars-blue,purple,pink    500x330
 https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29uc3RlbGxhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60 */
 
 /* stars-purple,pink,peach,trees
 https://images.unsplash.com/photo-1506946604214-968e32a47e84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNvbnN0ZWxsYXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60 */
 
-/* stars-blue,clouds
+/* stars-blue,clouds   500x339
 https://media.istockphoto.com/photos/night-sky-with-stars-and-clouds-picture-id532378051?b=1&k=20&m=532378051&s=170667a&w=0&h=K-6-sbYMHOM7i7yqFFdI0VCmFOY03rLAQMHxHObJUGY= */
 
 

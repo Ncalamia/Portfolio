@@ -1,3 +1,32 @@
-.hide-and-show {
-	display: none;
+/* .Links {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+} */
+
+/* .dropDownFromLinks {
+  position: relative;
+  display: inline-block;
+} */
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
 }
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-content a:hover {
+}
+
+.dropDownFromLinks:hover .dropdown-content {
+	display: block;
+}
+
+.dropDownFromLinks:hover .Links {
+
+	}

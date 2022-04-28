@@ -11,33 +11,38 @@
 		<script src='bio-app.js'></script>
 	</head>
 	<body>
+		<!--Sticky Nav Bar-->
 		<header id="header-container">
-			<a href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/resume-page/resume-index.html">Resume</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/projects-page/projects-index.html">Portfolio</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/resume-page/resume-index.html">Resume</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/projects-page/projects-index.html">Portfolio</a>
+
+			<!-- This is the website I used to figure out how to make the dropdown.  https://www.w3schools.com/howto/howto_css_dropdown.asp -->
 			<div class="dropDownFromLinks">
-			<a class="Links" href="#">Links</a>
+			<a class="topOfPageNav" class="links" href="#">Links</a>
 			<div class="dropdown-content">
-				<a href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
-				<a href="https://github.com/Ncalamia" target="_blank">github</a>
+				<a class="actualLinks" href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
+				<a class="actualLinks" href="https://github.com/Ncalamia" target="_blank">github</a>
 			</div>
 		</header>
-
-		<main id="top-container">
-			<div id="pic-container">
-				<img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg" alt="Nikki Calamia">
-			</div>
+		<!--Sticky Nav Bar-->
+		<main>
+			<div id="top-container">
+				<div id="pic-container">
+					<!-- <img class="main-img" src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg" alt="Nikki Calamia"> -->
+				</div>
 			<div id="about-container">
 				<h2>Nikki Calamia</h2>
 				<h4>Hi I'm Nikki and I am a future Software Developer!</h4>
-				<p>Things I like to do when I'm not coding</p>
+				<p class="about-p">Things I like to do when I'm not coding</p>
 				<ul>
-					<li>Hang out with my family</li>
-					<li>Play with my cat Lyla</li>
-					<li>Travel</li>
-					<li>Listen to music</li>
+					<li class="about-list">Hanging out with my family</li>
+					<li class="about-list">Playing with my cat Lyla</li>
+					<li class="about-list">Traveling</li>
+					<li class="about-list">Listening to music</li>
 				</ul>
 			</div>
+		</div>
 			<div id="multi-pic-container">
 				<div class="family">
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXlQIxajR8OydJKSGJbpS6RpvcYpsvVHKSw&usqp=CAU" alt="Picture of Nikki and her family">

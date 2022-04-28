@@ -1,19 +1,173 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin: 0 auto;
+}
+
+/* ////////////Sticky Nav Bar//////////// */
+#header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  height: 100px;
+  padding-top: 20px;
+  background-image: url("https://i.pinimg.com/736x/e5/d3/c7/e5d3c76eff22f3d072b1dc926d13c56c--twitter-backgrounds-twitter-headers.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.topOfPageNav {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.topOfPageNav:hover {
+  text-shadow: 1px 1px 1px white;
+}
+.dropDownFromLinks  {
+  padding-top: 20px;
+  height: 150px;
+  width: 100px;
+}
 .dropdown-content {
   display: none;
   z-index: 1;
 }
-
+.actualLinks {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
+  padding: 15px 10px 0px 0px;
+}
 .dropdown-content a {
   display: block;
 }
-
 .dropdown-content a:hover {
+  text-shadow: 1px 1px 1px white;
 }
-
 .dropDownFromLinks:hover .dropdown-content {
 	display: block;
 }
+/* ////////////Sticky Nav Bar//////////// */
 
-.dropDownFromLinks:hover .Links {
+#main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 
-	}
+}
+
+#left-container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0px;
+  background-color: #0A1438;
+  text-shadow: none;
+}
+#about-me {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+img {
+  height: 15em;
+  width: 70%;
+  margin: 30% 13% 50% 13%;
+
+  border-radius: 50%;
+  border: white solid 5px;
+}
+h2{
+  font-size: 1.8em;
+  margin: 0;
+}
+p {
+  font-size: 1.1em;
+  padding: 10px 20px 20px 20px;
+}
+
+#resume-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40%;
+}
+h3 {
+  font-size: 1.8em;
+}
+.list-resume-links {
+  text-decoration: none;
+  padding: 20px 30px 0px 30px;
+  font-size: 1.2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+#right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  width: 55%;
+  margin: 0px 30px 0px 40px;
+  background-color: #ececec;
+  color: black;
+  text-shadow: none;
+}
+
+#name-contact-info {
+  display: flex;
+  flex-direction: row;
+}
+#name-contact-info-left {
+
+}
+h1 {
+
+}
+h5 {
+
+}
+
+#name-contact-info-right {
+
+}
+h4 {
+
+}
+.contact-headings {
+  list-style-type: none;
+}
+.contact-info {
+  list-style-type: none;
+}
+
+#info-bottom-right {
+
+}
+.resume-subheadings {
+
+}
+.resume-list {
+
+}
+.languages {
+
+}
+
+
+
+/* ///////////Header Pic Graveyard/////////// */
+
+
+/* keys white
+https://aminulislam333.files.wordpress.com/2013/06/copy-keyboard-header.png */

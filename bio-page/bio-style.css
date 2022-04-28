@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(37,41,88);
+  background-color: #0A1438;
   font-family: 'Raleway', sans-serif;
   color: rgba(165, 55, 253,0.47);
   text-shadow: rgb(213, 184, 255);
@@ -60,29 +60,22 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 120px;
+  margin-top: 60px;
 }
-/* .main-img {
-  width: 100%;
-  height: 100%; */
-/* } */
-#pic-container {
-  background-image: url("https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg");
-  width: 40%;
-  height: 26em;
-  border-radius: 3%;
-  padding: 30px;
-}
+
 #about-container {
   width: 40%;
   height: 26em;
   text-align: center;
-  padding: 30px;
+  padding: 0px 20px 0px 20px;
   border-radius: 3%;
   color: white;
 }
 h2 {
   font-size: 2.2em;
   padding-bottom: 20px;
+  margin: 0 auto;
 }
 h4 {
   font-size: 1.5em;
@@ -92,14 +85,124 @@ h4 {
   padding-top: 40px;
 }
 .about-list {
-  list-style-type: none;
-  font-size: 1.3em;
+  /* list-style-type: none; */
+  font-size: 1.2em;
   padding: 5px;
 }
 ul {
+  list-style-position: inside;
   margin-top: 30px;
   padding-right: 40px;
 }
+#pic-container {
+  width: 40%;
+  height: 26em;
+  padding: 30px;
+}
+.main-pic {
+  border-radius: 3%;
+  margin: 0% 0% 0% 25%;
+  height: 100%;
+}
+
 #multi-pic-container {
-  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 150px;
+
+}
+.family {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXlQIxajR8OydJKSGJbpS6RpvcYpsvVHKSw&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 20%;
+  height: 20em;
+  border-radius: 20px;
+}
+.travel {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519112016236-YU0LR4L7IM98MMWL9B0X/javacats03Feb20180094.jpg?format=1500w");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 20%;
+  height: 20em;
+  border-radius: 20px;
+}
+
+.pet {
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/cat_cat_face_cats_eyes_240527.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 20%;
+  height: 20em;
+  border-radius: 20px;
+}
+
+.music {
+  background-image: url("https://media.istockphoto.com/photos/ginger-cat-portrait-picture-id1290233518?b=1&k=20&m=1290233518&s=170667a&w=0&h=C-eVqPpxcxCFqJsykl4rTzq0Kl995ZHCaLB9BgSgEzk=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 20%;
+  height: 20em;
+  border-radius: 20px;
+}
+h5 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 40px;
+  width: 94%;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.4);
+}
+.hide-and-show-fam {
+  display: none;
+  padding: 5px 20px 10px 20px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+.hide-and-show-trav {
+  display: none;
+  padding: 5px 20px 10px 20px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+.hide-and-show-pet {
+  display: none;
+  padding: 5px 20px 10px 20px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 20px;
+
+}
+.hide-and-show-mus {
+  display: none;
+  padding: 5px 20px 10px 20px;
+  font-size: 22px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 20px;
+}
+.pet-list {
+  padding: 0;
+  margin-top: 8px;
+}
+.cat {
+  font-size: 15px;
+  padding: 2px;
 }

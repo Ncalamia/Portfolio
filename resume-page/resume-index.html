@@ -10,32 +10,36 @@
 	  crossorigin="anonymous"></script>
 		<script src='resume-app.js'></script>
 	</head>
-	</head>
+
 	<body>
 		<header id="header-container">
-			<a href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/bio-page/bio-index.html">About Me</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/projects-page/projects-index.html">Portfolio</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/bio-page/bio-index.html">About Me</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/projects-page/projects-index.html">Portfolio</a>
+
 			<div class="dropDownFromLinks">
-			<a class="Links" href="#">Links</a>
+			<a class="topOfPageNav" class="links" href="#">Links</a>
 			<div class="dropdown-content">
-				<a href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
-				<a href="https://github.com/Ncalamia" target="_blank">github</a>
+				<a class="actualLinks" href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
+				<a class="actualLinks" href="https://github.com/Ncalamia" target="_blank">github</a>
+			</div>
 			</div>
 		</header>
+
 		<main>
+			<div id="main-container">
 				<div id="left-container">
 					<div id="about-me">
-						<img src="https://images.all-free-download.com/images/graphiclarge/cat_feline_cats_eye_215231.jpg" alt=""
+						<img src="https://images.all-free-download.com/images/graphiclarge/cat_feline_cats_eye_215231.jpg" alt="Nikki Calamia">
 						<h2>Professional Profile</h2>
 						<!-- Change this text! -->
 						<p>A motivated individual with in-depth knowledge of languages and development tools, seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills.</p>
 					</div>
 					<div id="resume-links">
 						<h3>Links</h3>
-						<a href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
-						<a href="https://github.com/Ncalamia" target="_blank">github</a>
-						<a href="#" target="_blank">Projects I've Made</a>
+						<a class="list-resume-links" href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
+						<a class="list-resume-links" href="https://github.com/Ncalamia" target="_blank">github</a>
+						<a class="list-resume-links" href="#" target="_blank">Projects I've Made</a>
 					</div>
 				</div>
 
@@ -77,10 +81,10 @@
 							</ul>
 						<h3 class="resume-subheadings">Programming Languages</h3>
 						<ul>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>jQuery</li>
+							<li class="languages">HTML</li>
+							<li class="languages">CSS</li>
+							<li class="languages">JavaScript</li>
+							<li class="languages">jQuery</li>
 						</ul>
 
 						<h3 class="resume-subheadings">Work Experience</h3>
@@ -88,19 +92,19 @@
 							<h4 class="resume-subheading-child">Women and Babies Hospital, Lancaster PA</h4>
 							<h4 class="resume-subheading-child">August 2017 - April 2022</h4>
 							<ul>
-								<li class="resume-list">Prepared Sterile Field and assisted surgeons during surgical procedures</li>
-								<li class="resume-list">Served as vice president on the retention and recruitment committee </li>
-								<li class="resume-list">Updated preference cards using the EPIC electronic health record system to ensure accurate supplies were documented</li>
-								<li class="resume-list">Head scheduler,  was in charge of Surgical Technologists staff scheduling</li>
+								<li class="resume-list">Prepared Sterile Field and assisted surgeons during surgical procedures.</li>
+								<li class="resume-list">Served as vice president on the retention and recruitment committee.</li>
+								<li class="resume-list">Updated preference cards using the EPIC electronic health record system to ensure accurate supplies were documented.</li>
+								<li class="resume-list">Head scheduler,  was in charge of Surgical Technologists staff scheduling.</li>
 							</ul>
 							<br>
 							<h4 class="resume-subheading-child">Sales Associate</h4>
 							<h4 class="resume-subheading-child">Kissel Village Cardtique, Lititz PA</h4>
 							<h4 class="resume-subheading-child">July 2014 - January 2018</h4>
 							<ul>
-								<li class="resume-list">Located items for customers by checking sister stores and online options</li>
-								<li class="resume-list">Helped customers navigate store, complete sales and process returns</li>
-								<li class="resume-list">Resolved customer concerns using strong communication and conflict management skills</li>
+								<li class="resume-list">Located items for customers by checking sister stores and online options.</li>
+								<li class="resume-list">Helped customers navigate store, complete sales and process returns.</li>
+								<li class="resume-list">Resolved customer concerns using strong communication and conflict management skills.</li>
 							</ul>
 
 						<h3 class="resume-subheadings">Education</h3>
@@ -111,8 +115,8 @@
 								<li class="resume-list">Certification in Surgical Technology</li>
 							</ul>
 					</div>
-
 				</div>
+			</div>
 		</main>
 	</body>
 </html>

@@ -1,6 +1,6 @@
 
 body {
-  background-image: linear-gradient(to right, pink,purple,blue);
+  background-color: rgb(37,41,88);
   font-family: 'Raleway', sans-serif;
   color: rgba(165, 55, 253,0.47);
   text-shadow: rgb(213, 184, 255);
@@ -69,18 +69,16 @@ body {
   background-image: url("https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554__480.jpg");
   width: 40%;
   height: 26em;
-  border: 10px solid black;
-  border-radius: 2%;
+  border-radius: 3%;
   padding: 30px;
 }
 #about-container {
   width: 40%;
   height: 26em;
   text-align: center;
-  background-color: white;
   padding: 30px;
-  border: 10px solid black;
-  border-radius: 2%;
+  border-radius: 3%;
+  color: white;
 }
 h2 {
   font-size: 2.2em;
@@ -90,15 +88,18 @@ h4 {
   font-size: 1.5em;
 }
 .about-p {
-  font-size: 1.3em;
+  font-size: 1.4em;
   padding-top: 40px;
 }
 .about-list {
   list-style-type: none;
-  font-size: 1em;
+  font-size: 1.3em;
   padding: 5px;
 }
 ul {
   margin-top: 30px;
   padding-right: 40px;
+}
+#multi-pic-container {
+  margin-top: 100px;
 }

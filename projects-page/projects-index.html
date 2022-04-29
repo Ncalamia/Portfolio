@@ -9,17 +9,17 @@
 	  crossorigin="anonymous"></script>
 		<script src='projects-app.js'></script>
 	</head>
-	</head>
 	<body>
 		<header id="header-container">
-			<a href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/bio-page/bio-index.html">About Me</a>
-			<a href="file:///Users/nikki/Desktop/Portfolio/resume-page/resume-index.html">Resume</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/home-page/home-index.html">Home</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/bio-page/bio-index.html">About Me</a>
+			<a class="topOfPageNav" href="file:///Users/nikki/Desktop/Portfolio/resume-page/resume-index.html">Resume</a>
 			<div class="dropDownFromLinks">
-			<a class="Links" href="#">Links</a>
+			<a class="topOfPageNav" class="links" href="#">Links</a>
 			<div class="dropdown-content">
-				<a href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
-				<a href="https://github.com/Ncalamia" target="_blank">github</a>
+				<a class="actualLinks" href="https://www.linkedin.com/in/nikki-calamia-858645157/" target="_blank">Linked In</a>
+				<a class="actualLinks" href="https://github.com/Ncalamia" target="_blank">github</a>
+			</div>
 			</div>
 		</header>
 	<main>
@@ -28,47 +28,42 @@
 				<img src="https://icon-library.com/images/software-developer-icon/software-developer-icon-24.jpg" alt="Developer Symbol">
 				<h1>Nikki Calamia</h1>
 				<h3>Software Developer</h3>
-				<h4>Click button to see the projects I've made</h4>
-				<br>
+				<h4>Click button below to see the projects I've made</h4>
 		</div>
 		<!-- Will be hidden when button is on -->
-
-		<!-- The entire switch -->
-		<div id="changeScreen">
-		<label class="toggle-switch">
-			<input class="toggle-switch-input" type="checkbox">
-			<span class="toggle-switch-label" on="On" off="Off"></span>
-			<span class="toggle-switch-button"></span>
-		</label>
-		</div>
-
 
 		<!-- Will be hidden when button is off -->
 		<div id="screen-2">
 			<div id="project-container">
+				<!-- Restaurant Webpage -->
 				<div class="card-container">
-					<!-- Restaurant Webpage ? -->
+					<img class="card-image"  src="Restaurant Photo.png" alt="Photo of Restaurant Webpage"/>
 					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-business-website" target="_blank">Restaurant Webpage</a>
-					<p>Description?</p>
+					<p>A strange rendition of a restaurant webpage. Used HTML, CSS, and JavaScript</p>
 				</div>
-				<!-- Cat Blog Webpage? -->
+
+				<!-- Cat Blog Webpage -->
 				<div class="card-container">
+					<img class="card-image"  src="Cat Blog Photo.png" alt="Photo of Cat Blog"/>
 					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-blog-theme" target="_blank">Cat Blog</a>
-					<p>Description?</p>
+					<p>This is one of the projects that I built to get into General Assembly bootcamp. The requirement was to make a blog. This is a portrayal of a blog mixed with my favorite pet. Whats better than a blog about cats! Used HTML, CSS, and JavaScript</p>
 				</div>
-				<!-- Realtor Webpage? -->
+
+				<!-- Realtor Webpage -->
 				<div class="card-container">
+					<img class="card-image"  src="Realtor Photo.png" alt="Photo of Realtor Webpage"/>
 					<a class="project-link" href="https://dash.generalassemb.ly/Nikki20/build-your-own-personal-website" target="_blank">Company Webpage</a>
-					<p>Description?</p>
-				</div>
-				<!-- Landscaper game? -->
-				<div class="card-container">
-					<a class="project-link" href="#" target="_blank">Project Name 4</a>
-					<p>Description?</p>
+					<p>My very first webpage. Built this adaptation of a realty company webpage. Used HTML and CSS</p>
 				</div>
 			</div>
-
 		</div>
 		<!-- Will be hidden when button is off -->
+		<div id="changeScreen-container">
+			<div id="light-bulb-placeholder"></div>
+			<div id="light-bulb"></div>
+			<div id="changeScreen"></div>
+		</div>
 
 	</main>
+</body>
+</html>

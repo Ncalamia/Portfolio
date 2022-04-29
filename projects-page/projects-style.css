@@ -1,30 +1,166 @@
-/* Image for the backgound of part 2
-https://www.herzing.edu/sites/default/files/styles/fp_960_640/public/2020-09/how-to-become-software-engineer.jpg.webp?itok=3WVOMgAJ */
 
-#screen-1 {
-  display: block;
+body {
+  background-color: #08BABA;
+  font-family: 'Raleway', sans-serif;
 }
 
-#screen-2 {
-  display: none;
+/* ////////////Sticky Nav Bar//////////// */
+#header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  height: 100px;
 }
-
+.topOfPageNav {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.topOfPageNav:hover {
+  text-shadow: 1px 1px 1px white;
+}
+.dropDownFromLinks  {
+  padding-top: 20px;
+  height: 150px;
+  width: 100px;
+}
 .dropdown-content {
   display: none;
   z-index: 1;
 }
-
+.actualLinks {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 18px;
+  padding: 15px 10px 0px 0px;
+}
 .dropdown-content a {
   display: block;
 }
-
 .dropdown-content a:hover {
+  text-shadow: 1px 1px 1px white;
 }
-
 .dropDownFromLinks:hover .dropdown-content {
 	display: block;
 }
+/* ////////////Sticky Nav Bar//////////// */
 
-.dropDownFromLinks:hover .Links {
 
-	}
+
+
+#screen-1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 120px;
+}
+img {
+  height: 12%;
+  width: 12%;
+}
+h1 {
+  font-size: 2.2em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 0.8em;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+#changeScreen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+#light-bulb {
+  display: none;
+  background-image: url("https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/ktip.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 25%;
+  width: 100px;
+}
+#light-bulb-placeholder {
+  display: flex;
+  height: 25%;
+  width: 100px;
+}
+#changeScreen {
+    background-image: url("https://static.thenounproject.com/png/94090-200.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80%;
+    width: 10%;
+}
+
+
+#screen-2 {
+  display: none;
+  height: 450px;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 100%;
+  width: 30%;
+}
+.card-image {
+  height: 60%;
+  width: 60%;
+  border-radius: 20px;
+}
+
+.project-link {
+  padding: 20px;
+  font-size: 1.5em;
+  color: black;
+}
+.project-link:hover {
+  text-shadow: 1px 1px 1px white;
+}
+p {
+  padding: 20px;
+  font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* Image for the backgound of part 2
+  https://www.herzing.edu/sites/default/files/styles/fp_960_640/public/2020-09/how-to-become-software-engineer.jpg.webp?itok=3WVOMgAJ */

@@ -4,6 +4,7 @@ body {
   color: white;
   text-shadow: 1px 1px 1px black;
   margin: 0 auto;
+  background-color: rgba(209, 197, 184, 0.19);
 }
 
 /* ////////////Sticky Nav Bar//////////// */
@@ -16,7 +17,7 @@ body {
   top: 0;
   height: 100px;
   padding-top: 20px;
-  background-image: url("https://i.pinimg.com/736x/e5/d3/c7/e5d3c76eff22f3d072b1dc926d13c56c--twitter-backgrounds-twitter-headers.jpg");
+  background-image: url("https://aminulislam333.files.wordpress.com/2013/06/copy-keyboard-header.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -69,8 +70,10 @@ body {
   flex-direction: column;
   width: 35%;
   margin: 0px;
-  background-color: #0A1438;
+  background-color: rgba(0,0,0,0.9);
+  /* background-color: #0A1438; */
   text-shadow: none;
+  padding-bottom: 50px;
 }
 #about-me {
   display: flex;
@@ -78,20 +81,20 @@ body {
   text-align: center;
 }
 img {
-  height: 15em;
+  height: 28em;
   width: 70%;
   margin: 30% 13% 50% 13%;
 
-  border-radius: 50%;
+  border-radius: 100%;
   border: white solid 5px;
 }
 h2{
-  font-size: 1.8em;
+  font-size: 2em;
   margin: 0;
 }
 p {
-  font-size: 1.1em;
-  padding: 10px 20px 20px 20px;
+  font-size: 1.4em;
+  padding: 30px 50px 20px 50px;
 }
 
 #resume-links {
@@ -101,14 +104,17 @@ p {
   margin-top: 40%;
 }
 h3 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 .list-resume-links {
   text-decoration: none;
   padding: 20px 30px 0px 30px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+.list-resume-links:hover {
+  text-shadow: 1px 1px 1px white;
 }
 
 
@@ -118,8 +124,7 @@ h3 {
   justify-content: flex-start;
   height: 100%;
   width: 55%;
-  margin: 0px 30px 0px 40px;
-  background-color: #ececec;
+  padding: 60px 10px 50px 40px;
   color: black;
   text-shadow: none;
 }
@@ -127,43 +132,60 @@ h3 {
 #name-contact-info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 #name-contact-info-left {
-
+  text-align: center;
+  width: 50%
 }
 h1 {
-
+  font-size: 2.5em;
+  margin-bottom: 15px;
 }
 h5 {
-
+  font-size: 1.3em;
+  margin-top: 15px;
 }
 
 #name-contact-info-right {
-
+  width: 50%;
+  margin: 20px 0px 10px 60px;
 }
 h4 {
-
+  font-size: 1em;
+  text-align: center;
 }
 .contact-headings {
   list-style-type: none;
+  font-size: 0.9em;
+  padding-left: 100px;
 }
 .contact-info {
   list-style-type: none;
+  font-size: 0.9em;
+  padding-left: 100px;
 }
-
+hr {
+  /* border-top: 2px solid black; */
+  background-color: black;
+  margin: 20px 0px 0px 0px;
+  padding: 0.5px;
+}
 #info-bottom-right {
-
+  margin-left: 60px;
 }
 .resume-subheadings {
-
+  font-size: 1.9em;
+  padding: 70px 0px 10px 0px;
 }
 .resume-list {
-
+  font-size: 1.3em;
+  padding: 5px;
 }
-.languages {
-
+.resume-subheading-child {
+  font-size: 1.3em;
+  padding: 0px;
 }
-
 
 
 /* ///////////Header Pic Graveyard/////////// */

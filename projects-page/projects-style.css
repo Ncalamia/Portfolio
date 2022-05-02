@@ -85,7 +85,7 @@ h4 {
   align-items: center;
   height: 300px;
   width: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 #light-bulb {
   display: none;
@@ -113,7 +113,7 @@ h4 {
   display: none;
   height: 450px;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 #project-container {
@@ -145,7 +145,7 @@ h4 {
   color: black;
 }
 .project-link:hover {
-  text-shadow: 1px 1px 1px white;
+  color: white;
 }
 p {
   padding: 20px;

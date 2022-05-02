@@ -5,8 +5,8 @@ body {
   background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;
   color: white;
-  text-shadow: 1px 1px 1px black;
-  margin-bottom: 400px;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 200px;
 }
 
 /* ////////////Sticky Nav Bar//////////// */
@@ -22,7 +22,7 @@ body {
 .topOfPageNav {
   text-decoration: none;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
   font-size: 20px;
   padding-top: 20px;
 }
@@ -62,8 +62,8 @@ body {
   margin-top: 100px;
 }
 .pic {
-  height: 300px;
-  width: 300px;
+  height: 25%;
+  width: 25%;
   border: 6px solid white;
   border-radius: 100%;
 }
@@ -79,24 +79,67 @@ h3 {
   font-size: 18px;
 }
 
+/* //////Media query- Half Screen, IPad////// */
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+
+  body {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 300px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h3 {
+  font-size: 20px;
+  }
+  .pic {
+    height: 35%;
+    width: 35%;
+    border: 5px solid white;
+    border-radius: 100%;
+  }
+}
+
+ /* ////////////Media query- Mobile////////// */
+
+
+ @media screen and (max-width: 480px) {
+
+   body {
+     background-position: center;
+     height: 100%;
+     width: 100%;
+     margin-bottom: 300px;
+   }
+   .pic {
+     height: 30em;
+     width: 30em;
+     border: 2px solid white;
+     border-radius: 100%;
+   }
+
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+  font-size: 15px;
+  }
+  .pic {
+    height: 35%;
+    width: 35%;
+    border: 5px solid white;
+    border-radius: 100%;
+  }
+}
 
 
 
 
-
-
-
-/* /////////Picture Graveyard///////// */
-
-
-/* Normal
-https://www.gorspa.org/wp-content/uploads/Software.jpg #1 */
-
-/* A little blurry on both
-https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI= */
-
-/* Colorful blurry in half screen
-https://wallpaperboat.com/wp-content/uploads/2019/10/coding-07.jpg */
-
-/* Blurry on both
-https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1294521676?b=1&k=20&m=1294521676&s=170667a&w=0&h=7pqhrZcqqbQq43Q0_TD0Y_YjInAyvA9xiht9bto030U= */
+/*
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */

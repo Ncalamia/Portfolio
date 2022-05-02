@@ -115,7 +115,7 @@ ul {
 
 }
 .family {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxXlQIxajR8OydJKSGJbpS6RpvcYpsvVHKSw&usqp=CAU");
+  background-image: url("Family.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -124,7 +124,7 @@ ul {
   border-radius: 20px;
 }
 .travel {
-  background-image: url("https://images.squarespace-cdn.com/content/v1/5a2c764af43b551b489c752d/1519112016236-YU0LR4L7IM98MMWL9B0X/javacats03Feb20180094.jpg?format=1500w");
+  background-image: url("Travel.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -134,7 +134,7 @@ ul {
 }
 
 .pet {
-  background-image: url("https://images.all-free-download.com/images/graphiclarge/cat_cat_face_cats_eyes_240527.jpg");
+  background-image: url("Lyla.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -144,7 +144,7 @@ ul {
 }
 
 .music {
-  background-image: url("https://media.istockphoto.com/photos/ginger-cat-portrait-picture-id1290233518?b=1&k=20&m=1290233518&s=170667a&w=0&h=C-eVqPpxcxCFqJsykl4rTzq0Kl995ZHCaLB9BgSgEzk=");
+  background-image: url("Firefly.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -156,21 +156,18 @@ h5 {
   text-align: center;
   color: white;
   padding: 10px;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute; */
   margin: 0;
-  height: 40px;
-  width: 94%;
   border-radius: 20px;
   font-size: 20px;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.2);
 }
 .hide-and-show-fam {
   display: none;
   padding: 5px 20px 10px 20px;
   font-size: 22px;
   color: white;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
 }
 .hide-and-show-trav {
@@ -178,7 +175,7 @@ h5 {
   padding: 5px 20px 10px 20px;
   font-size: 22px;
   color: white;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
 }
 .hide-and-show-pet {
@@ -186,7 +183,7 @@ h5 {
   padding: 5px 20px 10px 20px;
   font-size: 22px;
   color: white;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
 
 }
@@ -195,7 +192,7 @@ h5 {
   padding: 5px 20px 10px 20px;
   font-size: 22px;
   color: white;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
 }
 .pet-list {

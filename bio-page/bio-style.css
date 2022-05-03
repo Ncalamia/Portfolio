@@ -2,9 +2,11 @@
 body {
   background-color: rgba(0,0,0,0.9);
   font-family: 'Raleway', sans-serif;
+  height: 100%;
+  width: 100%;
   color: rgba(165, 55, 253,0.47);
-  text-shadow: rgb(213, 184, 255);
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 200px;
 }
 
 /* ////////////Sticky Nav Bar//////////// */
@@ -20,7 +22,7 @@ body {
 .topOfPageNav {
   text-decoration: none;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 5px 5px 5px black;
   font-size: 20px;
   padding-top: 20px;
 }
@@ -75,6 +77,7 @@ body {
 h2 {
   font-size: 2.2em;
   padding-bottom: 20px;
+  padding-top: 20px;
   margin: 0 auto;
 }
 h4 {
@@ -85,7 +88,6 @@ h4 {
   padding-top: 40px;
 }
 .about-list {
-  /* list-style-type: none; */
   font-size: 1.2em;
   padding: 5px;
 }
@@ -103,6 +105,7 @@ ul {
   border-radius: 3%;
   margin: 0% 0% 0% 25%;
   height: 100%;
+  width: 20em;
 }
 
 #multi-pic-container {
@@ -110,15 +113,13 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
   margin-bottom: 150px;
-
 }
 .family {
   background-image: url("Family.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
   width: 20%;
   height: 20em;
   border-radius: 20px;
@@ -127,7 +128,7 @@ ul {
   background-image: url("Travel.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
   width: 20%;
   height: 20em;
   border-radius: 20px;
@@ -137,17 +138,17 @@ ul {
   background-image: url("Lyla.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
   width: 20%;
   height: 20em;
   border-radius: 20px;
 }
 
 .music {
-  background-image: url("Firefly.jpeg");
+  background-image: url("Firefly-5.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
   width: 20%;
   height: 20em;
   border-radius: 20px;
@@ -156,7 +157,6 @@ h5 {
   text-align: center;
   color: white;
   padding: 10px;
-  /* position: absolute; */
   margin: 0;
   border-radius: 20px;
   font-size: 20px;
@@ -202,4 +202,237 @@ h5 {
 .cat {
   font-size: 15px;
   padding: 2px;
+}
+
+
+/* //////Media query- Half Screen////// */
+
+@media screen and (max-width: 1400px) {
+  #top-container {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
+  }
+  h2 {
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+  .about-p {
+    padding: 0px;
+  }
+  .main-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #multi-pic-container {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 40em;
+    width: 100%;
+    margin-bottom: 300px;
+  }
+  .family {
+    width: 35%;
+    height: 50%;
+    margin: 5%;
+  }
+  .travel {
+    width: 35%;
+    height: 50%;
+    margin: 5%;
+  }
+  .pet {
+    width: 35%;
+    height: 50%;
+    margin: 5%;
+  }
+  .music {
+    width: 35%;
+    height: 50%;
+    margin: 5%;
+  }
+}
+
+/* ////////////Media query- IPad////////// */
+
+@media screen and (max-width: 800px) {
+
+  body {
+    margin-bottom: 1200px;
+  }
+
+  #top-container {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 40%;
+    width: 100%;
+  }
+  #about-container {
+    width: 40%;
+    padding: 10px 0px 0px 0px;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 2em;
+    padding: 20px 0px 15px 0px;
+  }
+  h4 {
+    font-size: 1.4em;
+  }
+  .about-p {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
+  .about-list {
+    font-size: 1em;
+    padding: 3px;
+  }
+  ul {
+    margin-top: 10px;
+    padding: 0;
+  }
+  #pic-container {
+    width: 40%;
+    height: 100%;
+    padding: 0px;
+    margin-right: 5%;
+  }
+  .main-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .family {
+    width: 80%;
+    height: 60%;
+    margin: 5%;
+  }
+  .travel {
+    width: 80%;
+    height: 60%;
+    margin: 5%;
+  }
+  .pet {
+    width: 80%;
+    height: 60%;
+    margin: 5%;
+  }
+  .music {
+    width: 80%;
+    height: 60%;
+    margin: 5%;
+  }
+
+}
+
+/* ///Media Query to fix layout shrinking/// */
+
+@media screen and (max-width: 700px) {
+
+#top-container {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+#pic-container {
+  width: 45%;
+  height: 100%;
+  padding: 0px;
+  margin-right: 5%;
+}
+.main-pic {
+  width: 100%;
+  height: 100%;
+}
+
+/* ///Media Query to fix layout shrinking/// */
+
+@media screen and (max-width: 600px) {
+
+  #header-container {
+    height: 50px;
+  }
+  .topOfPageNav {
+    font-size: 15px;
+    padding-left: 8px;
+  }
+  .dropDownFromLinks  {
+    padding-top: 20px;
+    width: 4em;
+  }
+  .actualLinks {
+    font-size: 12px;
+  }
+  .dropdown-content {
+    padding-left: 10px;
+  }
+  #top-container {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  #about-container {
+    width: 40%;
+    padding: 0px 10px;
+  }
+  h2 {
+    font-size: 1.8em;
+    padding: 40px 0px 15px 0px;
+  }
+  h4 {
+    font-size: 1.2em;
+    padding: 0px 0px 0px 0px;
+  }
+  .about-p {
+    font-size: 1.1em;
+    padding: 30px 0px 10px 0px;
+  }
+  .about-list {
+    font-size: 0.9em;
+    padding: 2px;
+  }
+  ul {
+    margin-top: 10px;
+    padding: 0;
+  }
+  #pic-container {
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin-right: 5%;
+  }
+  .main-pic {
+    width: 100%;
+    height: 100%;
+  }
+
+
+}
+ /* ////////////Media query- Mobile////////// */
+
+ @media screen and (max-width: 500px) {
+
+  #about-container {
+    width: 80%;
+    padding: 0px 10px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 1.4em;
+  }
+  .about-p {
+    font-size: 1.2em;
+  }
+  .about-list {
+    font-size: 1em;
+  }
+  ul {
+    margin-top: 10px;
+  }
+  #pic-container {
+    width: 65%;
+    padding: 0px;
+    margin: 0px 0px 4em 0;
+  }
 }

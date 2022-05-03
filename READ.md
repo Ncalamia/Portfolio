@@ -28,6 +28,6 @@ Installation Instructions
 
 Unsolved Problems
 
-	It took forever to figur out how to deploy the site. I had my files in directories in my Portfolio directory. A major learning experience but I was determined to figure it out until I did. I just wish I could have been a little bit quicker and been able to add more content. Also using some of my hover elements can;t be used for mobile. 
+	It took forever to figure out how to deploy the site. I had my files in directories in my Portfolio directory. A major learning experience but I was determined to figure it out until I did. I just wish I could have been a little bit quicker and been able to add more content. Also using some of my hover elements can't be used for mobile. 
 	
 	

@@ -6,7 +6,7 @@ Personal Portfolio Website
 
 Technologies Used
 
-	Mostly HTMl and CSS. I did use JQuery for some interactive components of the site. I also implemented media queries to all of the pages for easy viewing on desktop, half screen, iPad, and mobile use. I used some CSS and JQuery to make things appear and disappear. I mostly used W3 schools for a resource.
+	Mostly HTMl and CSS. I did use JQuery for some interactive components of the site. I also implemented media queries to all of the pages for easy 	viewing on desktop, half screen, iPad, and mobile use. I used some CSS and JQuery to make things appear and disappear. I mostly used W3 schools 	for a resource.
 
 
 Approach Taken
@@ -20,7 +20,7 @@ Approach Taken
 
 Link to my live site
 
-
+	https://peaceful-eclair-af615e.netlify.app/
 
 Installation Instructions
 
@@ -28,4 +28,6 @@ Installation Instructions
 
 Unsolved Problems
 
-	Not really. I just wished I could have been a little bit quicker and been able to add more content.
+	It took forever to figure out how to deploy the site. I had my files in directories in my Portfolio directory. A major learning experience but I was determined to figure it out until I did. I just wish I could have been a little bit quicker and been able to add more content. Also using some of my hover elements can't be used for mobile. 
+	
+	
